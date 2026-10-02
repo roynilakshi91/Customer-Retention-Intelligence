@@ -10,17 +10,6 @@ Predict customer churn risk and explore the factors influencing each prediction.
 
 An end-to-end machine learning project that identifies customers at risk of churn, explains the key drivers behind each prediction, and translates model outputs into actionable retention strategies and business impact.
 
-## Live Demo
-
-<p align="center">
-  <a href="https://roynilakshi91-customer-retention-intelligence-app-1-n5saof.streamlit.app/
-L">
-    <strong>Live Demo</strong>
-  </a>
-</p>
-
-
----
 
 ## Project Overview
 
