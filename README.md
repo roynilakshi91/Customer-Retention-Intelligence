@@ -10,6 +10,32 @@ Predict customer churn risk and explore the factors influencing each prediction.
 
 An end-to-end machine learning project that identifies customers at risk of churn, explains the key drivers behind each prediction, and translates model outputs into actionable retention strategies and business impact.
 
+## Workflow
+
+```text
+EDA
+ ↓
+Feature Engineering
+ ↓
+Churn Prediction
+ ↓
+SHAP Explainability
+ ↓
+Revenue at Risk
+ ↓
+Retention Targeting
+ ↓
+Causal Inference + A/B Testing
+ ↓
+CUPED / Difference-in-Differences
+ ↓
+Incremental Revenue
+ ↓
+ROI Analysis
+ ↓
+Streamlit Deployment
+
+
 
 ## Project Overview
 
@@ -195,17 +221,3 @@ The deployed Streamlit application provides a simple interface where users can:
 4. See the key factors driving the prediction
 5. Understand the potential retention opportunity
 
-### Application Flow
-
-```text
-Customer Information
-        ↓
-Feature Engineering
-        ↓
-XGBoost Prediction
-        ↓
-Churn Probability
-        ↓
-Individual SHAP Explanation
-        ↓
-Retention Opportunity
