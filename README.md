@@ -221,3 +221,18 @@ The deployed Streamlit application provides a simple interface where users can:
 4. See the key factors driving the prediction
 5. Understand the potential retention opportunity
 
+## Project structure
+
+- `app_1.py` — Streamlit application entry point
+- `model/` — serialized model, scaler, and feature names used by the app
+- `code/` — analysis and modeling notebooks
+- `code/data/` — raw and processed datasets
+- `src/` — generated charts and visualizations
+- `requirements.txt` — Python dependencies for local and Streamlit Cloud deployments
+
+Run the app from the repository root with:
+
+```bash
+pip install -r requirements.txt
+streamlit run app_1.py
+```

@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -9,10 +11,11 @@ st.set_page_config(
     layout="wide"
 )
 
-# Load model
-model = joblib.load("xgb_best_model.pkl")
-scaler = joblib.load("scaler.pkl")
-feature_names = joblib.load("feature_names.pkl")
+# Load model artifacts from the repository's model directory.
+MODEL_DIR = Path(__file__).resolve().parent / "model"
+model = joblib.load(MODEL_DIR / "xgb_best_model.pkl")
+scaler = joblib.load(MODEL_DIR / "scaler.pkl")
+feature_names = joblib.load(MODEL_DIR / "feature_names.pkl")
 
 # Page title
 
